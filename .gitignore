@@ -30,3 +30,4 @@ local
 tmp
 
 # location specific config file
+twitter4j.properties
