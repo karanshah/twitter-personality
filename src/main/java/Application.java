@@ -3,9 +3,13 @@ import java.util.logging.Logger;
 public class Application {
 
     private final static Logger LOG = Logger.getLogger(Application.class.getName());
+    private final static int JOB_INTERVAL = 14400000;
 
-    public static void main (String[] args) {
-        runQuoterPersonality();
+    public static void main (String[] args) throws InterruptedException {
+        while (true) {
+            runQuoterPersonality();
+            Thread.sleep(JOB_INTERVAL);
+        }
     }
 
     /**
