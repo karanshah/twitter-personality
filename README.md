@@ -3,7 +3,7 @@ twitter-personality
 
 Create A Twitter Personality
 
-This solves the quiz () in java.  It gets a random message from one of the users friends and will post to the users twitter account.
+This solves the quiz (http://rubyquiz.strd6.com/quizzes/208-twitter-personalities) in java.  It gets a random message from one of the users friends and will post to the users twitter account.
 
 See @QuoterBot on twitter
 
